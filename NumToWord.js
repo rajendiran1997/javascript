@@ -1,4 +1,4 @@
-cosnt numToWord = (number) => {
+const numToWord = (number) => {
     if(number > 0 && number < 1000000){
     var ones = ['zero','one','two','three','four','five','six','seven','eight','nine','ten'];
     var toes = ['dummy','Eleven','twelve','thirteen','fourteen','fifteen','sixteen','seventeen','eighteen','nineteen','twenty'];
